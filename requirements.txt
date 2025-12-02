@@ -1,0 +1,10 @@
+# Core
+cryptography>=3.4
+pycryptodome>=3.10
+pytest>=7.0
+numpy
+
+
+# Optional / placeholder PQC libraries - replace with actual library you choose
+# e.g. pip install oqs-python or pqcrypto if you use them
+# oqs==0.4.0 # example: liboqs Python bindings

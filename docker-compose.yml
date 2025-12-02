@@ -1,0 +1,9 @@
+version: "3.10"
+
+services:
+  quantum_crypto:
+    build: .
+    container_name: quantum_crypto_env
+    volumes:
+      - .:/app
+    command: python3 main.py

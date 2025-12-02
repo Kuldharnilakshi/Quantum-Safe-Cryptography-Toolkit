@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[tool.black]
+line-length = 88
+
+[tool.flake8]
+max-line-length = 88
+exclude = ["venv", "build", "__pycache__"]
+
+[tool.mypy]
+ignore_missing_imports = true
